@@ -1,0 +1,6 @@
+x = input("Enter your e-mail: ")
+y = x.split(".")
+z = y[1].split("@")
+name = z[0]
+domain = z[1]
+print(f"Hey {name}, I see your email is registered with {domain}")
